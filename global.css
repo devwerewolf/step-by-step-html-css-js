@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.current {
+    color: red;
+}
+
+.nav-item {
+    display: inline;
+    font-weight: bold;
+    padding-right: 8px;
+}
+
+.nav-item:hover {
+    text-decoration: underline;
+    cursor: crosshair;
+}
+
